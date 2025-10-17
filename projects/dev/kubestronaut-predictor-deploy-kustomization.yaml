@@ -2,7 +2,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: instavote-deploy
-  namespace: instavote
+  name: kubestronaut-predictor-deploy
+  namespace: kubestronaut-predictor
 spec:
   path: ./flux/dev
