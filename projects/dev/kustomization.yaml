@@ -4,3 +4,5 @@ resources:
 - ../base/kubestronaut-predictor
 patchesStrategicMerge:
 - kubestronaut-predictor-deploy-kustomization.yaml
+- monitoring-deploy-kustomization.yaml
+
