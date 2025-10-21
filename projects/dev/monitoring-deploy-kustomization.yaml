@@ -6,3 +6,4 @@ metadata:
   namespace: monitoring
 spec:
   path: ./flux/dev
+
