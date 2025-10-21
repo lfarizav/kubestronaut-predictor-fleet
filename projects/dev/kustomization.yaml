@@ -2,6 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../base/kubestronaut-predictor
+- ../base/monitoring
 patchesStrategicMerge:
 - kubestronaut-predictor-deploy-kustomization.yaml
 - monitoring-deploy-kustomization.yaml
