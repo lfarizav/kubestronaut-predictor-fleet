@@ -3,7 +3,7 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: kubestronaut-predictor-deploy
-  namespace: monitoring
+  namespace: kubestronaut-predictor
 spec:
   path: ./flux/dev
 
