@@ -3,7 +3,8 @@ kind: Kustomization
 resources:
 - ../base/kubestronaut-predictor
 - ../base/monitoring
+- ../base/keda
 patchesStrategicMerge:
 - kubestronaut-predictor-deploy-kustomization.yaml
 - monitoring-deploy-kustomization.yaml
-
+- keda-kustomization.yaml
